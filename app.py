@@ -24,7 +24,7 @@ count_matrix = cv.fit_transform(df['combined_features'])
 similarity = cosine_similarity(count_matrix)
 
 # --- 3. Functions ---
-api_key = "828ef97a068897f3e64365154d09b4a0"
+api_key = "APNA TMBD API KEY YAHA PAST KARE"
 
 def fetch_poster(movie_title):
     url = f"https://api.themoviedb.org/3/search/movie?api_key={api_key}&query={movie_title}"
